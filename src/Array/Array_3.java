@@ -28,6 +28,5 @@ public class Array_3 {
         }
     }
 }
-//bcjsbjbx
+
 //
-//dl,cl,
