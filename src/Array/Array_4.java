@@ -4,6 +4,11 @@ public class Array_4 {
     public static void main(String[] args) {
         int []arr=new int[10];
         int []arr1={11,12,13,14,15};
+        int search=14;
+        for(int i=0;i<arr1.length;i++){
+            if(search==arr1[i]){
+                System.out.println(search);
+            }}
 
         arr[0]=1;
         arr[1]=2;
@@ -26,6 +31,7 @@ public class Array_4 {
             System.out.println(k);
 
         }
+
 
     }
 }

@@ -8,6 +8,6 @@ public class ENum1 {
         System.out.println(today);
         Day Today=Day.Monday;
         System.out.println(Today);
-
+//
     }
 }

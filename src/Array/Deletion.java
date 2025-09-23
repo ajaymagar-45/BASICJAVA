@@ -13,7 +13,7 @@ public class Deletion {
                 continue;
             }
             newArra[j]=arr[i];
-            j++;
+           j++;
 
 
         }

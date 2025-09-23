@@ -6,6 +6,9 @@ public class arrys_2 {
         System.out.println(a);
         int b=71267;
         System.out.println(b);
+        int arr[][]={{1,2},
+                     {2,3}};
+        System.out.println(arr[0][1]);
 
 
 

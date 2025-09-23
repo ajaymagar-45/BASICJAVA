@@ -10,13 +10,14 @@ public class Array_3 {
         arr1[2]=33;
         arr1[3]=44;
         arr1[4]=55;
+        int arr0[]=new int[3];
 
         System.out.println(arr1[0]);
         System.out.println(arr1[1]);
         System.out.println(arr1[2]);
         System.out.println(arr1[3]);
         System.out.println(arr1[4]);
-        System.out.println("-----------");
+        System.out.println("-----------");//
         for (int i=0; i< arr.length;i++){
             System.out.println(arr[i]);
 
