@@ -12,8 +12,12 @@ public class ScannerClass {
 
 //        System.out.println("Roll No :" + rollNo);
         System.out.print("Enter your marks :");
+
         float marks=sc.nextFloat();
-        System.out.print(" Name : "+name + " Roll No : " + rollNo +" Marks : "+marks);
+        System.out.println("Enter the Coun Student :");
+        int studentCount=sc.nextInt();
+        System.out.print(" Name : "+name + " Roll No : " + rollNo +" Marks : "+marks + " Total Number of Student present in cass : " + studentCount);
+
 
 //        System.out.print("Hello : "+name);
     }
