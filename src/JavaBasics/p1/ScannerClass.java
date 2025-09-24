@@ -10,7 +10,7 @@ public class ScannerClass {
         System.out.println("Enteer Your Roll Number :");
         int rollNo=sc.nextInt();
 
-//        System.out.println("Roll No :" + rollNo);
+//        System.out.println("Roll No :" + rollNo);vhvhvmmgfk
         System.out.print("Enter your marks :");
 
         float marks=sc.nextFloat();
