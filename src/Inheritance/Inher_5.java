@@ -17,6 +17,12 @@ class main_5 {
 }
 
 public class Inher_5 extends main_5 {
+    void Adc() {
+
+        System.out.println(" Printing Charcter ");
+//        super.Adc();
+    }
+
 
 
     public static void main(String[] args) {
