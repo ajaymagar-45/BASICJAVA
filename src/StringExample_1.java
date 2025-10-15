@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class StringExample_1 {
     String name="Ajay";
 
@@ -8,13 +9,17 @@ public class StringExample_1 {
 
 
     public static void main(String[] args) {
+        Scanner obj=new Scanner(System.in);
+        System.out.println("Enter your name: ");
+        String name=obj.nextLine();
 
-             String a1$="Ajay";
-            String a2="Magar";
-            a1$=a2;
 
-        System.out.println(a1$);
-        System.out.println(a2);
+//             String a1$="Ajay";
+//            String a2="Magar";
+//            a1$=a2;
+//
+//        System.out.println(a1$);
+//        System.out.println(a2);
 
 
 
