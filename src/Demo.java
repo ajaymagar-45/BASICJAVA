@@ -1,8 +1,14 @@
 public class Demo {
+    void show(int a, long b){
+        System.out.println("short");
+    }
+    void show(long a,int b){
+        System.out.println("int");
+    }
     public static void main(String[] args) {
-        int a=10;
-        int b=130;
-        int c=5;
-        System.out.println(a<b || a<c);
+        Demo o=new Demo();
+        o.show(4,5l);
+//
+
     }
 }
