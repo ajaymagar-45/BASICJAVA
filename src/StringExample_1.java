@@ -18,6 +18,7 @@ public class StringExample_1 {
 
 
 
+
 //        StringExample_1 obj=new StringExample_1();
 //        System.out.println(obj.toString());
 //        System.out.println(obj.hashCode());
