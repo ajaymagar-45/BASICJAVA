@@ -56,7 +56,7 @@ public class StringMethods_1 {
 
         //10. replace(CharSequence old, CharSequence new)
         String st4 = "Java Programming";
-        System.out.println(s.replace("Java", "Python"));
+        System.out.println(st4.replace("Java", "Python"));
         System.out.println("     ");
 
         //11.startsWith() and endsWith()
@@ -73,7 +73,7 @@ public class StringMethods_1 {
 
         //13. isEmpty()
         String st7 = "";
-        System.out.println(s.isEmpty());
+        System.out.println(st7.isEmpty());
         System.out.println(" ");
 
         //14. split(String regex)
