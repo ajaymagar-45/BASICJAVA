@@ -6,5 +6,8 @@ public class StingExa_2 {
         String s3="Last_Name";
         String s2=s1.concat(s3);
         System.out.println(s2);
+
+        String s4="8987";
+        System.out.println(s4);
     }
 }
