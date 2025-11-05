@@ -19,9 +19,16 @@ public class L1 {
         List<Integer> ele=new ArrayList<>();
         ele.add(10);
         ele.add(20);
-        ele.add(30);
+        ele.add(0,30);
         System.out.println(ele);
         System.out.println(ele.get(2));
+        ele.remove(0);
+        System.out.println(ele);
         System.out.println("   ");
+
+        List<Integer> list=List.of(1,2,3,4,5,6,7,8,9);
+        ele.addAll(list);
+        System.out.println(ele);
+
     }
 }
