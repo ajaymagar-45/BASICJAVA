@@ -14,6 +14,14 @@ public class GenerateHashcode {
             // Display the hash code.
             System.out.println("The hash for " + str +
                     " is " + hash_code);
+            String S1="Hashcode";
+            System.out.println(S1.hashCode());
+            String S2="First String ";
+            String S3="Second String";
+            System.out.println(S2 + S3);
+            String str1="AJAY";
+            String str2="AJAY";
+            System.out.println(str1.contains(str2));
         }
 
 

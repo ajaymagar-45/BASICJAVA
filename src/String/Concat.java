@@ -13,6 +13,10 @@ public class Concat {
             // Method 2: Using + operator
             String result2 = str1 + str2;
             System.out.println("Using + operator: " + result2);
+
+            String s3="Hello ";
+            String  s4="World";
+            System.out.println(s3.concat(s4));
         }
 
 

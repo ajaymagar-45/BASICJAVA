@@ -1,7 +1,6 @@
 package String;
 
 import java.util.Calendar;
-import java.util.Calendar;
 
 public class PrintCurrentDateAndTime {
     // Import the Calendar class from the java.util package.
