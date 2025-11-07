@@ -15,6 +15,7 @@ public class CharCount {
             String ch = String.valueOf(unique.charAt(i));
             int count = str.length() - str.replace(ch, "").length();
             System.out.println(ch  + count);
+
         }
 
     }
