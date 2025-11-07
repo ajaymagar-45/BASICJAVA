@@ -20,8 +20,9 @@ public class GenerateHashcode {
             String S3="Second String";
             System.out.println(S2 + S3);
             String str1="AJAY";
-            String str2="AJAY";
-            System.out.println(str1.contains(str2));
+            String str2="aJAY";
+            System.out.println(str1.equalsIgnoreCase(str2));
+
         }
 
 
