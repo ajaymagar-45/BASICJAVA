@@ -16,7 +16,9 @@ public class CheckSpecificSeq {
 
             // Check if str1 contains the sequence specified in str2 and print the result.
             System.out.println(str1.contains(str2));
-
+         String a2="ok";
+         String A3="by";
+            System.out.println(a2.concat(A3));
     }
 
 }

@@ -4,6 +4,7 @@ public class ReverseString_2 {
 
         public static void main(String[] args) {
             String str = "AjayMagar";
+            System.out.println(str.length());
             char[] arr = str.toCharArray();
             String ch = "";
 

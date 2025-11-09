@@ -13,12 +13,14 @@ public class CaseInsensitive {
 //            }
 
             String a="AJAY";
+            System.out.println(a.charAt(1));
             String b="ajay";
             if(a.equalsIgnoreCase(b))
                 System.out.println(" given Strings are same in ignoring the case");
 
             else
                 System.out.println("Given strings are not equal");
+
 
         }
     }
