@@ -13,6 +13,8 @@ public class CaseInsensitive {
 //            }
 
             String a="AJAY";
+            String S3=a.intern();
+            System.out.println(S3);
             System.out.println(a.charAt(1));
             String b="ajay";
             if(a.equalsIgnoreCase(b))
