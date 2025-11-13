@@ -6,5 +6,6 @@ public class SubString {
         String str1=str.substring(0,28);
         System.out.println(str);
         System.out.println(str1);
+
     }
 }
