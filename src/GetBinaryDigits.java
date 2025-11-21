@@ -6,6 +6,9 @@ public class GetBinaryDigits {
         System.out.println(Integer.toBinaryString(b));
 
         System.out.println(a>b ? a:b);
+        int aa=10;
+      int bb=10;
+        System.out.println(aa==bb ? aa:bb);
 
     }
 }
