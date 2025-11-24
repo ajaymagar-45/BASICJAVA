@@ -15,18 +15,18 @@ public class AnonymousArrayExample {
     public static void main(String[] args) {
 
 
-        // Passing an anonymous array directly
-//        int result = sum(new int[]{10, 20, 30, 40});
-//
-//        System.out.println("Sum = " + result);
-//        int a[]={10,20,30};
-//        int b[]=new int[a.length];
-//        int c[]=a.clone();
-//        System.out.println(c[0]);
-//        for(int i=0;i<a.length;i++){
-//            b[i]=a[i];
-//            System.out.println(b[i]);
-//        }
+//         Passing an anonymous array directly
+        int result = sum(new int[]{10, 20, 30, 40});
+
+        System.out.println("Sum = " + result);
+        int a[]={10,20,30};
+        int b[]=new int[a.length];
+        int c[]=a.clone();
+        System.out.println(c[0]);
+        for(int i=0;i<a.length;i++){
+            b[i]=a[i];
+            System.out.println(b[i]);
+        }
 
 
     }

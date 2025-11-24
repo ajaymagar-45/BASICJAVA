@@ -9,6 +9,8 @@ public class GetBinaryDigits {
         int aa=10;
       int bb=10;
         System.out.println(aa==bb ? aa:bb);
+        System.out.println( Arithmeticoperators.ai);
 
     }
+
 }
