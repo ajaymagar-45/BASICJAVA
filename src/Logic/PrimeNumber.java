@@ -5,20 +5,24 @@ public class PrimeNumber {
 
 
 
-                int num = 7;   // change number here
-                int count = 0;
+//                int num = 7;   // change number here
+//                int count = 0;
+//
+//                for (int i = 1; i <= num; i++) {
+//                    if (num % i == 0) {
+//                        count++;
+//                    }
+//                }
+//
+//                if (count == 2)
+//                    System.out.println(num + " is Prime");
+//                 else
+//                    System.out.println(num + " is NOT Prime");
+                 for (int i=1;i<=100;i++){
+                     if(i%3==0 && i%5==0)
+                         System.out.println(i);
+                 }
 
-                for (int i = 1; i <= num; i++) {
-                    if (num % i == 0) {
-                        count++;
-                    }
-                }
-
-                if (count == 2) {
-                    System.out.println(num + " is Prime");
-                } else {
-                    System.out.println(num + " is NOT Prime");
-                }
             }
 
 
