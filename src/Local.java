@@ -1,12 +1,11 @@
 public class Local {
-    void local(){
-        int a;
-        a=20;
-        System.out.println(a);
+    static {
+        int a=10;
+        int b=20;
+        System.out.println(a+b);
     }
 
     public static void main(String[] args) {
-        Local o=new Local();
-        o.local();
+
     }
 }
