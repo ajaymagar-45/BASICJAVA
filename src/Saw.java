@@ -1,12 +1,20 @@
 
 class Was{
     void show(){
-        System.out.println("This is Parent class Method");
+
+        System.out.println(
+                "This is Parent class Method");
+    }
+    void aj(  int a){
+        System.out.println("ocdjj");
     }
 }
 public class Saw extends Was {
+
    void show() {
-        System.out.println("This is Child class Method");
+
+
+//        System.out.println("This is Child class Method");
     }
 
 

@@ -24,7 +24,7 @@ return age;
 public class Encap_1 {
     public static void main(String[] args) {
         A obj=new A();
-        obj.setAge(18);
+        obj.setAge(22);
         obj.setName("Ajay");
         System.out.println(obj.getAge() +  " "+ obj.getName());
     }
