@@ -17,6 +17,9 @@ class main_2 {
 
 
 public class Inher_2 extends main_2 {
+    void ok (){
+        System.out.println("Child class");
+    }
 
 
     public static void main(String[] args) {
@@ -25,11 +28,21 @@ public class Inher_2 extends main_2 {
 
 
         Inher_2 obj = new Inher_2();
-
-        obj.test(10,20);
-
-        System.out.println("given character is " + obj.c);
         obj.ok();
+
+
+
+
+
+
+
+
+
+
+//        obj.test(10,20);
+//
+//        System.out.println("given character is " + obj.c);
+//        obj.ok();
 
 
     }

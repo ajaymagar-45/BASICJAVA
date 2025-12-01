@@ -5,6 +5,7 @@ public class Array_3 {
         int [] arr={10,129,88,38};
         int r[]={1,2,3,4,5,6,7,8,9,10};
         int [] arr1=new int [5];
+
         arr1[0]=11;
         arr1[1]=22;
         arr1[2]=33;
