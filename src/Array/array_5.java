@@ -11,7 +11,7 @@ package Array;
         System.out.println(arr5[2]);
         System.out.println(arr5[3]);
         System.out.println(arr5[4]);
-        System.out.println("          ");
+        System.out.println("          ");//
 
 
             for (int i=0; i<arr5.length; i++){
