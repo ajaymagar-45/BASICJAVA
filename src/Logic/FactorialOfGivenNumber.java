@@ -1,6 +1,10 @@
 package Logic;
 
+import org.junit.platform.commons.logging.Logger;
+import org.junit.platform.commons.logging.LoggerFactory;
+
 public class FactorialOfGivenNumber {
+
     public static void main(String[] args) {
         int a=5;
         int fact=1;
@@ -9,5 +13,7 @@ public class FactorialOfGivenNumber {
 
         }
         System.out.println(fact);
+        FactorialOfGivenNumber s=new FactorialOfGivenNumber();
+
     }
 }
