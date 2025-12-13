@@ -20,6 +20,7 @@ public class MT_3 {
       Child t=new Child();
         t.start();
         t.join(10000);
+
         for(int i=0;i<10;i++){
             System.out.println("Parent Thread");
         }

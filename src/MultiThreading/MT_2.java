@@ -24,10 +24,10 @@ public class MT_2 {
         Demo g=new Demo();
 
 
-//        Thread t=new Thread(g);
-//        t.setPriority(10);
-//        t.start();
-//
+        Thread t=new Thread(g);
+        t.setPriority(10);
+        t.start();
+
 ////        System.out.println(Thread.MIN_PRIORITY);
 ////        System.out.println(Thread.currentThread().getPriority());
 //        System.out.println("I will execute after child thread get execute ");

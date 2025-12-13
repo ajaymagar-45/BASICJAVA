@@ -1,3 +1,4 @@
+import java.lang.*;
 public class FactorialOfGivenNumer {
     public static void main(String[] args) {
         int a=5;
