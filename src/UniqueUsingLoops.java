@@ -1,7 +1,8 @@
 import java.util.Arrays;
 
 public class UniqueUsingLoops {
-    public static void main(String[] args) {
+
+    public static void main(String[] args){
         int arr1[] = {1, 2, 3, 4, 5};
         int arr2[] = {4, 5, 6, 7};
         int arr3[] = {9, 10, 11, 12};

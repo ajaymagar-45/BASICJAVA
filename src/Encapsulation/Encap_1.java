@@ -1,4 +1,7 @@
 package Encapsulation;
+import java.io.*;
+import java.io.*;
+
 class A {
     private int age;
     private String name;

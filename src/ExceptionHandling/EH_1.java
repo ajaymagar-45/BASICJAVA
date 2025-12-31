@@ -6,9 +6,12 @@ public class EH_1 {
         try{
             System.out.println(10/0);
         }
-        catch (ArithmeticException e){
-            System.out.println(10/2);
+        catch (Exception e) {
+
+//            System.out.println(10/2);
+            e.printStackTrace();
         }
+
         System.out.println("World");
     }
 }

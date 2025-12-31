@@ -1,5 +1,6 @@
 package Method;
 
+
 public class Student {
     void afg(int a,int b,boolean c){
         System.out.println(a +" " + b + " " + c + " ");
