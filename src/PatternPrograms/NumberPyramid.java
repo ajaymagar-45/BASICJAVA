@@ -4,22 +4,24 @@ public class NumberPyramid {
         int rows = 5;
         int num = 1;
 
-        for (int i = 1; i <= rows; i++) {
+//        for (int i = 1; i <= rows; i++) {
+//
+//           for (int j = i; j <rows; j++) {
+//                System.out.print("_");
+//            }
+//
+//           for (int k = 1; k <= i; k++) {
+//
+//               System.out.print(num + " ");
+//               num++;
+//           }
+//
+//
 
-           for (int j = i; j < rows; j++) {
-                System.out.print("  ");
-            }
+//
 
-           for (int k = 1; k <= i; k++) {
-
-               System.out.print(num + " ");
-               num++;
-           }
-
-
-
-            System.out.println();
-        }
+        for (int i=65;i<75;i++)
+            System.out.println((char)i);
     }
 }
 

@@ -5,26 +5,39 @@ class Child extends Thread{
         for (int i=0;i<10;i++){
             System.out.println("Child Thread");
             try{
+
                 Thread.sleep(2000);
             }catch (InterruptedException e){
-                e.printStackTrace();
+                e.getMessage();
 
 
             }
+
         }
+
     }
 }
 
 public class MT_3 {
-    public static void main(String[] args) throws InterruptedException{
+    public static void main(String[] args) {
       Child t=new Child();
         t.start();
-        t.join(10000);
+       try {t.join(500);} catch (InterruptedException e) {
+           throw new RuntimeException(e);
+       }
 
-        for(int i=0;i<10;i++){
-            System.out.println("Parent Thread");
-        }
 
-    }
 
-}
+           for (int i = 0; i < 10; i++)  {
+               System.out.println("Parent Thread");
+
+
+                   }
+
+
+
+           }
+       }
+
+
+
