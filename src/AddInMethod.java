@@ -4,6 +4,7 @@ interface  A11{
     Object  add(Object a,Object b);
 
 }
+
 public class AddInMethod implements A11 {
     public Object add(Object a,Object b){
 
@@ -20,10 +21,14 @@ public class AddInMethod implements A11 {
 
 //    }
     int c(int a){
-        if(a>5)
-            return 1;
+
+        if(a>5){
+            return 1;}
+
+
         else
-            return 0;
+        {
+            return 0;}
 
 
        }
@@ -42,7 +47,8 @@ public class AddInMethod implements A11 {
 //
 //        System.out.println(o.check(5));
 //        System.out.println(o.c(2));
-        System.out.println(o.trueFalse(3));
+        System.out.println(o.c(10));
+        System.out.println(o.trueFalse(9));
 
 
     }
